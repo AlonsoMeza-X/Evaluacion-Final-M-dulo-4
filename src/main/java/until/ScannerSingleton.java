@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class ScannerSingleton {
     private static Scanner instance;
 
-    public ScannerSingleton() {
+    private ScannerSingleton() {
     }
 
     public static void closeInstance(){
