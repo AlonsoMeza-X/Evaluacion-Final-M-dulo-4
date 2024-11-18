@@ -12,7 +12,6 @@ class PromediosServicioImpTest {
 
     PromediosServicioImp promedio = new PromediosServicioImp();
 
-
     @Test
     @DisplayName("Test Promedio con varias notas")
     void testPromedioNotas() {
@@ -31,8 +30,5 @@ class PromediosServicioImpTest {
     void testPromedioSin() {
         assertEquals(0, promedio.calcularPromedio(Collections.emptyList()));
     }
-
-
-
 
 }

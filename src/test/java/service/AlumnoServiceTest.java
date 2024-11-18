@@ -6,7 +6,7 @@ import model.MateriaEnum;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import org.mockito.InjectMocks;
+
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
@@ -17,12 +17,8 @@ import static org.mockito.Mockito.when;
 
 class AlumnoServiceTest {
     private AlumnoService alumnoService;
-    private Alumno alumno;
     @Mock
     private AlumnoService alumnoServices;
-
-    @InjectMocks
-    private AlumnoServiceTest alumnoServiceTest;
 
     @BeforeEach
     void setUp() {
