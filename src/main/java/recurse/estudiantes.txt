@@ -1,3 +1,6 @@
+Alumno : Rut Gary - Nombre Solo
+Materia : CIENCIA - Promedio : 6,0
+
 Alumno : Rut 12.345.678-9 - Nombre Alonso
 Materia : MATEMATICAS - Promedio : 5,4
 Materia : LENGUAJE - Promedio : 5,2
